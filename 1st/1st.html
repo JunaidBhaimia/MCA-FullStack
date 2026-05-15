@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple HTML5 and CSS webpage example" />
+    <title>My Simple Webpage</title>
+    <style>
+      /* Reset some default browser styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background: #007bff;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      nav {
+        background: #333;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin: 0 15px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      main {
+        padding: 20px;
+        max-width: 900px;
+        margin: auto;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      section {
+        margin-bottom: 20px;
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        background: #333;
+        color: white;
+        margin-top: 20px;
+      }
+      /* Responsive design */
+      @media (max-width: 600px) {
+        nav ul {
+          flex-direction: column;
+          padding: 10px;
+        }
+        nav ul li {
+          margin: 10px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Webpage</h1>
+      <p>Built with HTML5 and CSS</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="home">
+        <h2>Home</h2>
+        <p>
+          This is a simple webpage created using HTML5 and CSS. It demonstrates
+          the use of semantic tags, styling, and responsive design.
+        </p>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          HTML5 provides new semantic elements like <code>&lt;header&gt;</code>,
+          <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and
+          <code>&lt;footer&gt;</code> that make web pages more meaningful and
+          accessible.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          You can reach me at:
+          <a href="mailto:example@email.com">example@email.com</a>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 My Simple Webpage</p>
+    </footer>
+  </body>
+</html>
