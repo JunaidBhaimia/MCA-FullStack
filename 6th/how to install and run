@@ -1,0 +1,13 @@
+npm create vite@latest my-react-app
+
+cd my-app
+
+npm install
+
+npm run dev
+
+npm start
+-----------------------
+
+// if something does not work then try this 
+Set -executionpolicy - scope CurrentUser remoteSigned
