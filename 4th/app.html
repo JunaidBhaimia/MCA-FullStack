@@ -1,0 +1,19 @@
+<div class="card customstyles">
+  <h3 class="card-title">Simple Calculator</h3>
+  <br />
+  Input 1:
+  <input type="number" [(ngModel)]="number1" />
+  <br /><br />
+  Input 2:
+  <input type="number" [(ngModel)]="number2" />
+  <br /><br />
+  <button class="bt1" (click)="Add()">Addition</button>
+  <br /><br />
+  <button class="bt2" (click)="Sub()">Subtraction</button>
+  <br /><br />
+  <button class="bt3" (click)="Mul()">Multiplication</button>
+  <br /><br />
+  <button class="bt4" (click)="Div()">Division</button>
+  <br /><br />
+  <h2>Result : {{result}}</h2>
+</div>
