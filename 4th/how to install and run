@@ -1,0 +1,17 @@
+1. Checking node version
+-----------------------------------
+node -v
+npm -v
+----------------------------------
+2. Install the Angular CLI
+-----------------------------------
+npm install -g @angular/cli
+----------------------------------------------
+3. Create a New Angular Project
+-------------------------------------
+ng new my-angular-app
+--------------------------------------------
+4. Run the Application
+-------------------------------------------
+cd my-angular-app
+ng serve --open
